@@ -1,0 +1,21 @@
+Basic plan:
+-launch program
+-player controls sprite
+-player is able to walk through the stage and win the stage
+-everything else static, panning camera
+
+how things are going to work:
+-floor will be a series of rectangles, input will be a text file with a series of numbers specifying how high they are
+-camera will pan by moving everything except the player
+
+Player.java
+World.java
+FloorPlatform.java
+FloatingPlatform.java
+GameGUI.java
+Enemy.java
+Powerup.java
+
+to figure out:
+-physics
+-
